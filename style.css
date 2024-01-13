@@ -1,25 +1,28 @@
 body {
-    background-color: #302E2B;
-  }
+  background-color: #302e2b;
+}
 
-#root{
+#root {
   display: flex;
   flex-direction: column;
 }
 
-.squareRow{
+.squareRow {
   width: 800px;
   height: 200px;
-  
-
+  display:flex;
 }
 
-.white{
-  color:white;
-
+.white {
+  background-color: #e9edcc;
 }
 
-.black{
-  color:black;
-
+.black {
+  background-color: #779954;
 }
+
+.square{
+  height: 100px;
+  width: 100px;
+}
+
