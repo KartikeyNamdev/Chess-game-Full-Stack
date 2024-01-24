@@ -1,3 +1,6 @@
-import { Square,SquareRow,startGame } from "./data/data.js";
-import { startGameRenderer } from "./Render/main.js";
-startGameRenderer(startGame());
+import { startGame } from "./data/data.js";
+import { startGameRenderer,pieceRender } from "./Render/main.js";
+//useful till the game ends
+const globalState = startGame();
+startGameRenderer(globalState);
+// console.log(globalState);

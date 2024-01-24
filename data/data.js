@@ -21,19 +21,19 @@ function SquareRow(rowId) {
   const squareRow = [];
   const abcd = ["a", "b", "c", "d", "e", "f", "g", "h"];
   if (rowId % 2 == 0) {
-    abcd.forEach((element,index) => {
+    abcd.forEach((element, index) => {
       if (index % 2 == 0) {
-        squareRow.push(Square("white", element+rowId, null));
+        squareRow.push(Square("white", element + rowId, null));
       } else {
-        squareRow.push(Square("black", element+rowId, null));
+        squareRow.push(Square("black", element + rowId, null));
       }
     });
   } else {
-    abcd.forEach((element,index) => {
+    abcd.forEach((element, index) => {
       if (index % 2 == 0) {
-        squareRow.push(Square("black", element+rowId, null));
+        squareRow.push(Square("black", element + rowId, null));
       } else {
-        squareRow.push(Square("white", element+rowId, null));
+        squareRow.push(Square("white", element + rowId, null));
       }
     });
   }

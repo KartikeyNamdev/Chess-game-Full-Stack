@@ -5,12 +5,11 @@ body {
 #root {
   display: flex;
   flex-direction: column;
+  width: fit-content; margin: auto
 }
 
 .squareRow {
-  width: 800px;
-  height: 200px;
-  display:flex;
+  display: flex;
 }
 
 .white {
@@ -21,8 +20,11 @@ body {
   background-color: #779954;
 }
 
-.square{
-  height: 100px;
-  width: 100px;
+.square {
+  height: 70px;
+  width: 70px;
 }
 
+.piece{
+  width: 100%;
+}
