@@ -5,3 +5,4 @@ import { GlobalEvent } from "./Events/global.js";
 const globalState = startGame();
 startGameRenderer(globalState);
 GlobalEvent();
+export{globalState};
