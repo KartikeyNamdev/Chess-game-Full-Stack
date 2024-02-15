@@ -86,5 +86,10 @@ function startGameRenderer(data) {
   //console.log(data);
   pieceRender(data);
 }
-
-export { startGameRenderer, pieceRender };
+//render highlight circle in js
+function renderHighlight(squareId) {
+  const highlightSpan=document.createElement("span");
+  highlightSpan.classlist.add("highlight");
+  
+}
+export { startGameRenderer, pieceRender,renderHighlight };
